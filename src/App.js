@@ -1,7 +1,14 @@
+import { useReducer } from 'react/cjs/react.production.min';
 import './App.css';
 
+function reducer(state, action) {
+
+}
 
 function App() {
+
+  const [state, dispatch] = useReducer(reducer, {})
+
   return (
     <div className="calculator-grid">
        <div className="output">
